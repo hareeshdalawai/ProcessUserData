@@ -16,7 +16,7 @@ Application is structured as below
 
 Process.UserData.FunctionApp - Configuation setting are configured in to local.settings.json file or in Environment variables.
 
-{
+`{
     "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
@@ -26,4 +26,4 @@ Process.UserData.FunctionApp - Configuation setting are configured in to local.s
     "DatabaseConnectionString": "Server=tcp:functionsdbserver.database.windows.net,1433;Initial Catalog=FunctionsDb;Persist Security Info=False;User ID=azuser;Password=user@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
     "AppInsightsDefaultLogLevel": "Debug"
   }
-}
+}`

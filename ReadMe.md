@@ -6,9 +6,11 @@ Application is structured as below
 
 4. UserDb - Project was added to create database structure.
 
-   To Create daytabase structure and stored procedures, in package manager console, set UserDb as startup project, and run below command, Make sure `DatabaseConnectionString` is configured in local.settings.json file
-   update-database
-   
+## Creating Database from Migrations in project
+   1. Go to package manager console,
+   2. Eet UserDb project as startup project
+   3. Make sure `DatabaseConnectionString` is configured in local.settings.json file
+   4. Execute command below command,  update-database
 
 ## Configuration
 

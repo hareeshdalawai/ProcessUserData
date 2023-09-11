@@ -4,7 +4,8 @@ Application is structured as below
 2. Process.UserData.FunctionApp.Domain - Implements the business logic 
 3. Process.UserData.FunctionApp.Infrastructure -  Implements the repositories for external servies
 
-4. UserDb - Project was added to create database structure 
+4. UserDb - Project was added to create database structure.
+
    To Create daytabase structure and stored procedures, in package manager console, set UserDb as startup project, and run below command, Make sure `DatabaseConnectionString` is configured in local.settings.json file
    update-database
    
